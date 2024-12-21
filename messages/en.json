@@ -1,0 +1,60 @@
+{
+  "common": {
+    "search": {
+      "placeholder": "Search articles...",
+      "button": "Search"
+    },
+    "theme": {
+      "toggle": "Toggle theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "home": {
+    "title": "Modern AI Blog",
+    "description": "Explore the world through the lens of artificial intelligence",
+    "featured": "Featured Articles",
+    "latest": "Latest Articles",
+    "readMore": "Read more"
+  },
+  "category": {
+    "title": "Category",
+    "posts": "Posts in category",
+    "empty": "No posts found in this category"
+  },
+  "search": {
+    "title": "Search",
+    "results_for": "Search results for",
+    "no_query": "Enter your search query above",
+    "no_results": "No articles found"
+  },
+  "post": {
+    "like": "Like this article",
+    "liked": "You liked this article",
+    "related": "Related Articles",
+    "views": "views"
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Get the latest articles delivered right to your inbox",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
+    "success": "Thank you for subscribing!",
+    "error": "Failed to subscribe. Please try again."
+  },
+  "popular": {
+    "title": "Popular Articles",
+    "description": "Most viewed articles",
+    "period": {
+      "day": "Today",
+      "week": "This Week",
+      "month": "This Month"
+    }
+  },
+  "recommendations": {
+    "title": "Recommended for You",
+    "description": "Based on your reading history"
+  }
+}

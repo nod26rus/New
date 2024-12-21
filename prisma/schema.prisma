@@ -1,0 +1,32 @@
+// Add to existing schema
+model Achievement {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  criteria    Json
+  iconUrl     String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  users       UserAchievement[]
+
+  @@map("achievements")
+}
+
+model UserAchievement {
+  id            String      @id @default(cuid())
+  userId        String
+  achievementId String
+  dateEarned    DateTime    @default(now())
+  achievement   Achievement @relation(fields: [achievementId], references: [id])
+
+  @@unique([userId, achievementId])
+  @@map("user_achievements")
+}
+
+// Add to existing User model
+model User {
+  // ... existing fields
+  level    Int     @default(1)
+  points   Int     @default(0)
+  achievements UserAchievement[]
+}
