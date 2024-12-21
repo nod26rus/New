@@ -1,0 +1,24 @@
+{
+  "common": {
+    "search": "Search",
+    "search_placeholder": "Search articles...",
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "search": {
+    "title": "Search",
+    "results_for": "Search results for",
+    "no_query": "Enter your search query above"
+  },
+  "categories": {
+    "all": "All Categories",
+    "technology": "Technology",
+    "science": "Science",
+    "culture": "Culture",
+    "business": "Business",
+    "lifestyle": "Lifestyle"
+  }
+}

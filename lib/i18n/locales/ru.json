@@ -1,0 +1,24 @@
+{
+  "common": {
+    "search": "Поиск",
+    "search_placeholder": "Поиск статей...",
+    "theme": {
+      "light": "Светлая",
+      "dark": "Тёмная",
+      "system": "Системная"
+    }
+  },
+  "search": {
+    "title": "Поиск",
+    "results_for": "Результаты поиска для",
+    "no_query": "Введите поисковый запрос выше"
+  },
+  "categories": {
+    "all": "Все категории",
+    "technology": "Технологии",
+    "science": "Наука",
+    "culture": "Культура",
+    "business": "Бизнес",
+    "lifestyle": "Образ жизни"
+  }
+}
